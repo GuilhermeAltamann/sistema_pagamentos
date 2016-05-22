@@ -43,7 +43,9 @@ return [
     'charset' => 'utf8',
 ];
 ```
-### Configurações
+### Configuration
+
+Run migrations `migrations/m160521_212326_create_new_table.php`
 
 Edit the file `config/web.php` with real data, for example:
 
@@ -76,6 +78,7 @@ Edit the file `commands/CobrancasController.php` with real data, for example:
 ```php
 ->setFrom(['my@gmail.com' => 'name'])
 ```
+
 
 
 
