@@ -1,0 +1,6 @@
+{
+    "require": {
+        "kartik-v/yii2-mpdf": "dev-master",
+        "setasign/fpdf": "dev-master"
+    }
+}
