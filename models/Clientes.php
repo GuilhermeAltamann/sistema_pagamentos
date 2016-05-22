@@ -56,12 +56,14 @@ class Clientes extends \yii\db\ActiveRecord
     
     public function trazClientesNaoPagaram(){
         
-        return Yii::$app->db->createCommand('SELECT *  
+         $clientes = Yii::$app->db->createCommand('SELECT *  
                                              FROM clientes CLI
                                              WHERE NOT EXISTS (
                                                 SELECT * 
                                                 FROM pagamentos PAG
                                                 WHERE PAG.idcliente = CLI.idcliente)')
                 ->queryAll();
+
+         return $clientes;
     }
 }

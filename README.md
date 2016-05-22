@@ -79,6 +79,11 @@ Edit the file `commands/CobrancasController.php` with real data, for example:
 ->setFrom(['my@gmail.com' => 'name'])
 ```
 
+RUN
+---
+```php
+    ./yii cobrancas
+```
 
 
 

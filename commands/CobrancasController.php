@@ -3,6 +3,7 @@
 namespace app\commands;
 
 use yii\console\Controller;
+use Yii;
 
 class CobrancasController extends Controller{
     
